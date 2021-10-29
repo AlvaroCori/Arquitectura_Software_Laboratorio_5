@@ -4,20 +4,26 @@ namespace ChainOfBraveChainOfResponsibility.Classes
 {
     public class Units:ITroopOrders
     {
-        public InfantryUnits _division;
-        public string _group;
+        protected string _group;
         public Units(string group)
         {
             _group = group;
         }
         public Units()
         {
-            _division = null;
-            _group = "no asignada";
+            _group = "unidad sin numero";
         }
         public virtual string Advance()
         {
-            return $"- {_group} tiene ordenes de detenerse.";
+            return $"- {_group} no puede avanzar";
+        }
+        public virtual string Defend()
+        {
+            return $"- {_group} no puede defender";
+        }
+        public virtual string ExecuteOrder(string message, string order)
+        {
+            return $"La orden {order} {message} la unidad.";
         }
     }
 }
