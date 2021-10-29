@@ -1,0 +1,320 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Thu Oct 28 20:08:32 2021
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CUR 
+DIR := c:/Users/ABC/Downloads/arquitectura/laboratorio_3_4_5/Arquitectura_Software_Laboratorio_5
+# default
+SHELL := sh.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+VBOX_MSI_INSTALL_PATH = C:\Program Files\Oracle\VirtualBox\
+# environment
+ONEDRIVE = C:\Users\ABC\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile
+MAKEFILE_LIST := 
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+TMP = C:\Users\ABC\AppData\Local\Temp
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-08dddabe-d2be-43a5-8e4d-4ead3013693d-sock
+# environment
+VSCODE_CWD = C:\Users\ABC\Downloads\arquitectura\laboratorio_3_4_5\Arquitectura_Software_Laboratorio_5
+# environment
+PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-11.0.11\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Python39;C:\Python39\Tools\scripts;C:\Users\ABC\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\ABC\AppData\Local\Programs\Python\Python39;C:\Program Files\dotnet\;C:\Program Files\PostgreSQL\13\bin;C:\MinGW\bin;C:\Python39\Scripts\;C:\Python39\;C:\Users\ABC\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\ABC\AppData\Local\Programs\Python\Python39\;C:\Users\ABC\AppData\Local\Microsoft\WindowsApps;C:\Users\ABC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ABC\AppData\Roaming\npm;C:\Users\ABC\.dotnet\tools;C:\MinGW\bin;
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+LC_ALL = C
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132726494850568318
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C:\Users\ABC
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8452_JBJXROLLLRGHCYMS
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = DESKTOP-30VQKAQ
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = ABC
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\ABC\AppData\Roaming\Code\CachedData\6cba118ac49a1b88332f312a8f67186f7f3c1643
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-30VQKAQ
+# environment
+OPENSSL_CONF = C:\Program Files\PostgreSQL\psqlODBC\etc\openssl.cnf
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-30VQKAQ
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+JAVA_HOME = C:\Program Files\Java\jdk-11.0.11
+# default
+MAKE_VERSION := 3.82.90
+# makefile
+.DEFAULT_GOAL := 
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\ABC\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\22169b77d062720eb9498d85a843a0c4-1.61.2-main-sock
+# environment
+HOMEPATH = \Users\ABC
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\WINDOWS
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\ABC\AppData\Roaming
+# environment
+TEMP = C:\Users\ABC\AppData\Local\Temp
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYST 
+EMDRIVE = C:
+# environment
+SESSIONNAME = Console
+# environment
+PROCESSOR_REVISION = 4e03
+# default
+.INCLUDE_DIRS = C:/MinGW/include
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 8452
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-30VQKAQ
+# variable set hash-table stats:
+# Load=98/1024=10%, Rehash=0, Collisions=13/114=11%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Users\ABC\AppData\Local\Programs\Python\Python39 (key C:/Users/ABC/AppData/Local/Programs/Python/Python39, mtime 1631905441): 4 files, no impossibilities.
+# C:\WINDOWS\System32\WindowsPowerShell\v1.0\ (key C:/WINDOWS/System32/WindowsPowerShell/v1.0/, mtime 1628341230): 30 files, no impossibilities.
+# . (key c:/Users/ABC/Downloads/arquitectura/laboratorio_3_4_5/Arquitectura_Software_Laboratorio_5, mtime 1635462491): 5 files, no impossibilities.
+# C:\Users\ABC\AppData 
+\Local\Programs\Python\Python39\Scripts (key C:/Users/ABC/AppData/Local/Programs/Python/Python39/Scripts, mtime 1626368703): 5 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/, mtime 1628101214): 7 files, no impossibilities.
+# C:\Users\ABC\AppData\Local\Programs\Python\Python39\ (key C:/Users/ABC/AppData/Local/Programs/Python/Python39/, mtime 1631905441): 4 files, no impossibilities.
+# C:\Users\ABC\AppData\Local\Programs\Python\Python39\Scripts\ (key C:/Users/ABC/AppData/Local/Programs/Python/Python39/Scripts/, mtime 1626368703): 5 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1628099572): 8 files, no impossibilities.
+# C:\WINDOWS\System32\OpenSSH\: could not be stat'd.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1632134320): 145 files, no impossibilities.
+# C:\WINDOWS (key C:/WINDOWS, mtime 1634366659): 116 files, no impossibilities.
+# C:\Program Files\PostgreSQL\13\bin (key C:/Program Files/PostgreSQL/13/bin, mtime 1631814602): 75 files, no impossibilities.
+# C:\ProgramData\chocolatey\bin (key C:/ProgramData/chocolatey/bin, mtime 1628179485): 13 files, no impossibilities.
+# C:\Python39 (key C:/Python39, mtime 1631905445): 18 files, no impossibilities.
+# C:\Program Files\Java\jdk-11.0.11\bin (key C:/Program Files/Java/jdk-11.0.11/bin, mtime 1631818401): 126 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\130\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/130/Tools/Binn/, mtime 1628101195): 4 files, no impossibilities.
+# C:\WINDOWS\System32\Wbem (key C:/WINDOWS/System32/Wbem, mtime 1634366684): 170 files, no impossibilities.
+# C:\Python39\ (key C:/Python39/, mtime 1631905445): 18 files, no impossibilities.
+# C:\Python39\Scripts\ (key C:/Python39/Scripts/, mtime 1632162135): 11 files, no impossibilities.
+# C:\Program Files\Common Files\Oracle\Java\javapath (key C:/Program Files/Common Files/Oracle/Java/javapath, mtime 1631818430): 6 files, no impossibilities.
+# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1628180292): 11 files, no impossibilities.
+# C:\Users\ABC\AppData\Local\Microsoft\WindowsApps (key C:/Users/ABC/AppData/Local/Microsoft/WindowsApps, mtime 1635453291): 13 files, no impossibilities.
+# C:\Users\ABC\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/ABC/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1634707270): 4 files, no impossibilities.
+# C:\WINDOWS\system32 (key C:/WINDOWS/system32, mtime 1634366672): 3048 files, no impossibilities.
+# C:\Users\ABC\AppData\Roaming\npm (key C:/Users/ABC/AppData/Roaming/npm, mtime 1632435421): 12 files, no impossibilities.
+# C:\Users\ABC\.dotnet\tools (key C:/Users/ABC/.dotnet/tools, mtime 1632055116): 5 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1630789045): 10 files, no impossibilities.
+# C:\Python39\Tools\scripts (key C:/Python39/Tools/scripts, mtime 1631905418): 70 files, no impossibilities.
+
+# 3943 files, no impossibilities in 28 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated. 
+make.exe: *** No rule to make target 'all'.  Stop.
+ 
+
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 8 (7) / strings = 3867 / storage = 58605 B / avg = 15 B
+# current buf: size = 8174 B / used = 1446 B / count = 90 / avg = 16 B
+# other used: total = 50431 B / count = 3777 / avg = 13 B
+# other free: total = 59 B / max = 14 B / min = 2 B / avg = 8 B
+
+# strcache performance: lookups = 3979 / hit rate = 2%
+# hash-table stats:
+# Load=3867/8192=47%, Rehash=0, Collisions=1549/3979=39%
+# Finished Make data base on Thu Oct 28 20:08:32 2021
+
+ 

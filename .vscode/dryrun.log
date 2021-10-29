@@ -1,0 +1,7 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make.exe: Entering directory 'c:/Users/ABC/Downloads/arquitectura/laboratorio_3_4_5/Arquitectura_Software_Laboratorio_5'
+ 
+make.exe: Leaving directory 'c:/Users/ABC/Downloads/arquitectura/laboratorio_3_4_5/Arquitectura_Software_Laboratorio_5'
+ 
+make.exe: *** No targets specified and no makefile found.  Stop.
+ 
